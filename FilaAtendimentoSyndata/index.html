@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta name="robots" content="noindex,follow"> 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="copyright" content="© 2023 Syndata Sistemas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fila de Atendimento</title>
+    <link rel="icon" type="image/x-icon" href="./src/imagens/syndataicon.png" />
+    <link rel="stylesheet" href="Css/reset.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <h2 id="titulo">Fila de Atendimento</h2>
+        <div class="filas">
+          <h2>Fila Geral:</h2>
+          <iframe class="geral" src="https://192.168.0.204/index.php#/details/incomingqueue/1002" scrolling="auto"></iframe>
+          <br>
+          <h2>Atendimento Especifico</h2>
+          <br>
+          <h3>Boleto: </h3>
+          <iframe class="naogeral" src="https://192.168.0.204/index.php#/details/incomingqueue/2200/llamadas" scrolling="auto" allowscript="yes"></iframe>
+          <h3>SPED: </h3>
+          <iframe class="naogeral" src="https://192.168.0.204/index.php#/details/incomingqueue/2200" scrolling="auto"></iframe>
+          <h3>Etiqueta/Relatorio: </h3>
+          <iframe class="naogeral" src="https://192.168.0.204/index.php#/details/incomingqueue/2300" scrolling="auto"></iframe>
+        </div>
+        <br>
+        <br>
+        <img src="./src/imagens/syndataicon.png">
+        <h1 class="logo">SYNDATA</h1>
+        <h1 class="logo">SISTEMAS</h1>
+      </div>
+    </main>
+    <script src="Js/script.js"></script>
+  </body>
+</html>
